@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:8080/create
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "Name": "Gautham",
+        "RollNo": "25AD051",
+        "Dept": "AIDS",
+        "Year": 2,
+        "DOB": 4112007,
+        "CGPA": 8.8
+    }
+order: 1789626133720
